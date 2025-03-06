@@ -7,7 +7,8 @@ import HelloWorld from "~/components/HelloWorld";
 //  ssr: false,
 //});
 
-export default function App() {
+export default function App({ token }: { token: string; }) {
+  console.log('token', token);
   return <HelloWorld />;
 }
 
