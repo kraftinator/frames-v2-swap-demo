@@ -1,7 +1,7 @@
 
 import HelloWorld from "~/components/HelloWorld";
 
-import dynamic from "next/dynamic";
+//import dynamic from "next/dynamic";
 
 //const HelloWorld = dynamic(() => import("~/components/HelloWorld"), {
 //  ssr: false,
