@@ -280,7 +280,7 @@ export default function TokenSwap({ token }: { token: string }) {
           onClick={isFinalized ? executeSwap : finalize}
           disabled={!isConnected || !sellAmount || !buyAmount || isPending}
         >
-          {isConnected ? (isFinalized ? "Confirm" : "Swap") : "Connect Wallet2"}
+          {isConnected ? (isFinalized ? "Confirm" : "Swap2") : "Connect Wallet2"}
         </Button>
 
         {quote && (
