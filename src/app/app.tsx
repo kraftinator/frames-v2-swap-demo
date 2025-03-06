@@ -1,4 +1,4 @@
-//"use client";
+
 import HelloWorld from "~/components/HelloWorld";
 
 import dynamic from "next/dynamic";
@@ -7,7 +7,7 @@ import dynamic from "next/dynamic";
 //  ssr: false,
 //});
 
-export default function App({ token }: { token: string; }) {
+export default function App() {
   return <HelloWorld />;
 }
 
