@@ -8,7 +8,7 @@ const frame = {
   version: "next",
   imageUrl: `${appUrl}/opengraph-image`,
   button: {
-    title: "Launch Swap",
+    title: "Launch Test 7",
     action: {
       type: "launch_frame",
       name: "Token Swap Demo",

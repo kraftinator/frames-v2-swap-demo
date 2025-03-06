@@ -1,4 +1,3 @@
-
 import HelloWorld from "~/components/HelloWorld";
 
 //import dynamic from "next/dynamic";
